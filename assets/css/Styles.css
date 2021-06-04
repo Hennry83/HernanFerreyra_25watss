@@ -1,8 +1,66 @@
 #header{
     background-image: url("../images/slider-1.png");
-    height: 500px;
+    width: 1366px;
+    height: 768px;
 }
 
 li{
     color: white;
+}
+#texto1{
+    color:white;
+}
+
+
+#boton1{
+    top: 480px;
+    left: 101px;
+    width: 144px;
+    height: 48px;
+
+    background: var(--unnamed-color-e0752f) 0% 0% no-repeat padding-box;
+    background: #E0752F 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-22);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal medium 16px/21px Roboto;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+
+    opacity: 1;
+}
+
+#rectangulo{
+ top: 912px;left: 0px;width: 32px;height: 384px; background: #E0752F;margin-top: 144px;margin-bottom: 144px;margin-right: 1334px;
+}
+
+#wehelp{
+top: 935px;left: 299px;width: 402px;height: 100px;margin-top: 167px;margin-bottom: 405px;
+margin-right: 665px;margin-left: 299px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-39)/var(--unnamed-line-spacing-45) var(--unnamed-font-family-poppins);
+letter-spacing: var(--unnamed-character-spacing-0-55);
+color: var(--unnamed-color-343434);
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+letter-spacing: 0.55px;
+}
+
+#parrafo{
+    top: 1079px;
+    left: 299px;
+    width: 768px;
+    height: 197px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-roboto);
+letter-spacing: var(--unnamed-character-spacing-0-22);
+color: var(--unnamed-color-343434);
+text-align: left;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+letter-spacing: 0.22px;
+font-size: 10px;
+color: #343434;
+opacity: 1;
 }
