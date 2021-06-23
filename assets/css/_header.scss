@@ -1,69 +1,75 @@
- .header{
-     background-image: url("../images/slider-1.png");
-     background: transparent url("../images/slider-1.png") 0% 0% no-repeat padding-box;
-     width: 1366px;
-     height: 768px; 
-     opacity: 1;
- }
- 
- .header__div{
-   border: 1px solid red;
-   width: 1366px;
-   height: 96px;
- }
- 
- a{
-    text-decoration: none;
-    font-size: 1.6rem;
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif; 
-    float: left;
-  }
+.header {
+    background-image: url("../images/slider-1.png");
+    /*  background: transparent url("../images/slider-1.png") 0% 0% no-repeat padding-box; */
+    width: 1366px;
+    height: 768px;
+}
 
- .header__div__img{
-     margin-top: 33px;
-     margin-left: 100px;
-     width: 128px;
-     height: 30px;
- }
- 
- .header__div__nav{
+.header__section {
+    border: 1px solid $color-brand;
+    width: 1366px;
+    height: 96px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header__section__img {
+    width: 128px;
+    height: 30px;
+    margin-left: 100px;
+    align-self: center;
+}
+
+.header__section__nav {
      float: right;
- }
- 
- .header__div__nav__ul{
-     list-style: none;   
-     margin-right: 110px;
- }
- 
- .header__div__nav__ul__elements{
-    float: left; 
+  
+}
+
+.header__section__nav__ul {
+    list-style: none;
+}
+
+.header__section__nav__ul__elements {
+    float: left;
     padding: 38px 0;
     margin-left: 50px;
- }
- 
- .header__textprimary{
-     font-size: 4.8rem;
-     color: #FFFFFF;
-     font-family: 'Poppins', sans-serif;
-     margin-top: 120px;
-     margin-left: 101px;
-     width: 554px;
-     height: 115px;
- }
- 
- .header__textsecondary{
-     color: #FFFFFF;
-     font-size: 1.6rem;
-     font-family: 'Roboto';
-     margin-top: 70px;
-     margin-left: 101px;
-     width: 343px;
-     height: 42px;
- }
- 
- .header__buton{
-  @include button;
-  margin-top: 50px;
-  margin-left: 101px; 
- }
+    flex-direction: row-reverse;
+    align-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: $color-ft-primary;
+    font-family: $font-secondary;
+    /* float: left;
+    margin-left: 15px;
+    padding: 0 20px; */
+}
+
+.header__textprimary {
+    font-size: 4.8rem;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    margin-top: 120px;
+    margin-left: 101px;
+    width: 554px;
+    height: 115px;
+}
+
+.header__textsecondary {
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-family: "Roboto";
+    margin-top: 70px;
+    margin-left: 101px;
+    width: 343px;
+    height: 42px;
+    font-family: "Roboto";
+}
+
+.header__buton {
+    @include button;
+    margin-top: 50px;
+    margin-left: 101px;
+}
