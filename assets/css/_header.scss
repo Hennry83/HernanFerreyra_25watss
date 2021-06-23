@@ -1,4 +1,4 @@
-.header {
+#header {
     background-image: url("../images/slider-1.png");
     /*  background: transparent url("../images/slider-1.png") 0% 0% no-repeat padding-box; */
     width: 1366px;
@@ -9,32 +9,26 @@
     border: 1px solid $color-brand;
     width: 1366px;
     height: 96px;
-    display: flex;
-    flex-wrap: nowrap;
+    display: flex; 
 }
 
 .header__section__img {
     width: 128px;
     height: 30px;
     margin-left: 100px;
-    align-self: center;
+    margin-top: 33px; 
 }
 
-.header__section__nav {
+nav{
      float: right;
-  
+     align-self:center;
 }
 
-.header__section__nav__ul {
+
+ul li {
     list-style: none;
-}
-
-.header__section__nav__ul__elements {
     float: left;
-    padding: 38px 0;
-    margin-left: 50px;
     flex-direction: row-reverse;
-    align-content: flex-end;
 }
 
 a {
@@ -42,34 +36,34 @@ a {
     font-size: 1.6rem;
     color: $color-ft-primary;
     font-family: $font-secondary;
-    /* float: left;
-    margin-left: 15px;
-    padding: 0 20px; */
 }
+
 
 .header__textprimary {
     font-size: 4.8rem;
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    margin-top: 120px;
+    color: $color-ft-primary;
+    font-family: $font-brand;
+    margin-top: 60px;
     margin-left: 101px;
     width: 554px;
     height: 115px;
 }
 
+p{  
+  color: $color-ft-primary;
+  font-size: 1.6rem;
+  font-family: $font-secondary;
+}
+
 .header__textsecondary {
-    color: #ffffff;
-    font-size: 1.6rem;
-    font-family: "Roboto";
-    margin-top: 70px;
+    margin-top: 60px;
     margin-left: 101px;
     width: 343px;
     height: 42px;
-    font-family: "Roboto";
 }
 
 .header__buton {
     @include button;
-    margin-top: 50px;
+    margin-top: 110px;
     margin-left: 101px;
 }
