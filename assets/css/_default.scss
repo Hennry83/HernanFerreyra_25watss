@@ -1,13 +1,13 @@
-html{
-    margin:0;
-    box-sizing: border-box;
+html,
+body {
+    margin: 0px;
+    padding: 0px;
     font-size: 62.5%;
+    width: 100%;
 }
 
-*,
-*::after,
-*::before{
-   margin: inherit;
-  box-sizing: inherit;
-  font-size: inherit; 
- }
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}

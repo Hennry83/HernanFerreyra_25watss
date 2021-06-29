@@ -1,0 +1,29 @@
+#about {
+    background: $color-primary; 
+    border-left: 32px solid $color-brand;
+    margin: 144px 0px;
+}
+
+#about h2{
+ font-family: $font-brand; 
+ font-size: 1.9rem;
+ padding-left: 299px;
+ padding-top: 20px;
+    b{
+        color: $color-brand;
+    }
+}
+
+.section__textsecondary {
+    margin-top: 44px;
+    padding-left: 299px;
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+main p {  
+    color: $color-secondary;
+    font-size: 1.6rem;
+    font-family: $font-secondary;
+}

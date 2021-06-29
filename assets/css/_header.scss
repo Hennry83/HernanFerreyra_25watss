@@ -1,47 +1,62 @@
 #header {
     background-image: url("../images/slider-1.png");
-    /*  background: transparent url("../images/slider-1.png") 0% 0% no-repeat padding-box; */
-    width: 1366px;
     height: 768px;
+    width: 100%;
+    clear: both;
+    content: "";
+    display: table;
 }
 
-.header__section {
+.header__div {
+    display: flex;
+    width: 100%;
+    height: auto;
     border: 1px solid $color-brand;
-    width: 1366px;
-    height: 96px;
-    display: flex; 
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 33px;
 }
 
-.header__section__img {
+.header__img {
     width: 128px;
     height: 30px;
     margin-left: 100px;
-    margin-top: 33px; 
+    margin-top: 33px;
 }
 
-nav{
-     float: right;
-     align-self:center;
+header nav {
+    /* float: right; */
+    margin-right: 110px;
 }
 
+/* ul{
+    display: flex;
+} */
 
-ul li {
-    list-style: none;
-    float: left;
-    flex-direction: row-reverse;
+nav {
+    
+    ul{
+        display: flex;
+      }
+
+    li{
+        list-style: none;
+        margin-left: 55px;
+        margin-top: 33px;
+      } 
+
+    a{
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: $color-primary;
+        font-family: $font-secondary;
+    }
 }
-
-a {
-    text-decoration: none;
-    font-size: 1.6rem;
-    color: $color-ft-primary;
-    font-family: $font-secondary;
-}
-
 
 .header__textprimary {
     font-size: 4.8rem;
-    color: $color-ft-primary;
+    color: $color-primary;
     font-family: $font-brand;
     margin-top: 60px;
     margin-left: 101px;
@@ -49,17 +64,14 @@ a {
     height: 115px;
 }
 
-p{  
-  color: $color-ft-primary;
-  font-size: 1.6rem;
-  font-family: $font-secondary;
-}
-
 .header__textsecondary {
     margin-top: 60px;
     margin-left: 101px;
     width: 343px;
     height: 42px;
+    color: $color-primary;
+    font-size: 1.6rem;
+    font-family: $font-secondary;
 }
 
 .header__buton {
