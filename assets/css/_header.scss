@@ -2,9 +2,9 @@
     background-image: url("../images/slider-1.png");
     height: 768px;
     width: 100%;
-    clear: both;
-    content: "";
-    display: table;
+    /* clear: both; */
+    /* content: ""; */
+    /* display: table ; */
 }
 
 .header__div {
@@ -25,25 +25,17 @@
     margin-top: 33px;
 }
 
-header nav {
-    /* float: right; */
-    margin-right: 110px;
-}
-
-/* ul{
-    display: flex;
-} */
 
 nav {
-    
+    margin-right: 110px;
     ul{
-        display: flex;
+        display: flex; 
       }
 
     li{
         list-style: none;
         margin-left: 55px;
-        margin-top: 33px;
+        margin-top: 33px; 
       } 
 
     a{
@@ -79,3 +71,33 @@ nav {
     margin-top: 110px;
     margin-left: 101px;
 }
+
+.circulo {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #5F6368;
+    margin-left: 123px;
+    margin-top: 56px;
+    /* position: absolute; */
+    &::before{
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: $color-brand;
+        margin-left: -20px;
+        position: absolute;
+    }
+    &::after{
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #5F6368;
+        margin-left: 20px;
+        position: absolute;
+    } 
+  }
+  
