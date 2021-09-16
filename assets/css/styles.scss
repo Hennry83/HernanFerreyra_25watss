@@ -1,12 +1,11 @@
-/* funciones de boostrap */
-@import "../../node_modules/bootstrap/scss/functions";
-
+ /* funciones de boostrap */
+ /* @import "../../node_modules/bootstrap/scss/functions"; */
 /* variables y mixins de boostrap*/
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/mixins";
-
+/* @import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";  */ 
 /* acordeon a importar de boostrap*/
-@import "../../node_modules/bootstrap/scss/accordion";
+/*  @import "../../node_modules/bootstrap/scss/accordion";  */
+ @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 /*  ESTILO PERSONALIZADO  */
 @import 'mixins';
